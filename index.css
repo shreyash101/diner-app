@@ -1,0 +1,179 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Smythe', cursive;
+} 
+
+.main {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.top {
+    background-image: url("ferks-guare-KEZdWfYD-ow-unsplash.jpg");
+    color: #fff;
+    padding: 2.275rem;
+    background-position: 50% 65%;
+    background-repeat: no-repeat;
+    background-size: 120%;
+}
+
+.title {
+    font-size: 2.43rem;
+}
+
+.motto {
+    font-size: 1.40rem;
+    margin-top: 0.2rem;
+}
+
+#items, #orders {
+    padding: 2rem;
+}
+
+#orders {
+    padding-top: 0;
+    display: none;
+}
+
+.item {
+    margin-top: 1rem;
+    border-bottom: 1px solid #D2D2D2;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-bottom: 2rem;
+}
+
+h1, p {
+    margin: 0;
+    font-weight: normal;
+}
+
+h3, h2 {
+    margin: 0;
+}
+
+
+.add {
+    border-radius: 50%;
+    border: 1.5px solid #3C3C3C;
+    background-color: #DEDEDE;
+    margin-left: auto;
+    width: 2rem;
+    height: 2rem;
+    cursor: pointer;
+}
+
+.emoji {
+    font-size: 4.875rem;
+    margin-right: 0;
+}
+
+.flavors {
+    font-size: 1rem;
+    color: #8B8B8B;
+    margin-bottom: 0.5rem;
+}
+
+h2 {
+    font-size: 1.75rem;
+}
+
+h3 {
+    font-size: 1.25rem;
+}
+
+.orders-title {
+    text-align: center;
+    margin-bottom: 1.5em;
+}
+
+.order {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 0.5em;
+}
+
+.order h3 {
+    margin-left: auto;
+}
+
+.remove {
+    color: #BBBBBB;
+    font-size: 0.75rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+    cursor: pointer;
+}
+
+#total {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.complete-order {
+    margin-top: 2.5em;
+    width: 100%;
+    border: none;
+    padding: 1em;
+    color: #fff;
+    background-color: #16DB99;
+    border-radius: 3px;
+}
+
+hr {
+    margin-top: 1em;
+}
+
+#payment-div {
+    display: none;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    max-width: 400px;
+    height: 25%;
+}
+
+.payment-details {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 1em;
+    border-radius: 0.2em;
+    text-align: center;
+    background-color: white;
+    filter: drop-shadow(5.18654px 5.18654px 255.437px rgba(0, 0, 0, 0.5));
+}
+
+#payment-div input, #sub {
+    padding: 1em;
+    width: 100%;
+    margin-bottom: 1em;
+    border-radius: 5px;
+}
+
+#sub {
+    background-color: green;
+    color: white;
+    border: none;
+}
+
+#msg {
+    background-color: #ECFDF5;
+    color: #065F46;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 1em;
+    font-size: 1.2rem;
+    display: none;
+    margin-top: 2em;
+}

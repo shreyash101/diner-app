@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Smythe&display=swap" rel="stylesheet">
+    <title>Jimmy’s Diner</title>
+</head>
+<body>
+    <div class="main">
+        <div class="top">
+            <h1 class="title">Jimmy’s Diner</h1>
+            <p class="motto">The best burgers and pizzas in town.</p>
+        </div>
+        <div id="items">
+            <!-- js rendering items here -->
+        </div>
+        <div id="orders">
+            <h2 class="orders-title">Your order</h2>
+            <div id="order_container">
+                <!-- rendering order summary -->
+            </div>
+            <hr>
+            <div id="total">
+                <!-- total rendering here -->
+            </div>
+            <button id="complete-btn" class="complete-order">Complete order</button>
+        </div>
+        <div id="payment-div">
+            <form class="payment-details">
+                <h2>Enter card details</h2>
+                <input type="text" name="name" placeholder="Enter your name" >
+                <input type="text" name="card number" placeholder="Enter card number" >
+                <input type="password" name="CVV" placeholder="Enter CVV" >
+                <button id="sub">Pay</button>
+            </form>
+        </div>
+        <div id="msg">
+            Thanks, James! Your order is on it's way
+        </div>
+    </div>
+    <script src="index.js" type="module"></script>
+</body>
+</html>
